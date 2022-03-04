@@ -53,8 +53,6 @@ const Header = () => {
     if (/\s/g.test(user?.displayName)) return true;
   }
 
-  console.log(user);
-
   useEffect(() => {
     user?.accessToken
       ? toast({
@@ -66,7 +64,6 @@ const Header = () => {
         })
       : '';
   }, [user?.accessToken]);
-  console.log(user);
 
   const noteQuery = router.query.noteId;
 

@@ -39,9 +39,6 @@ const NoteCard = memo(
     // @ts-ignore
     const { note } = props;
 
-    console.log(props);
-    console.log(note);
-
     const [isOpen, setIsOpen] = useState(false);
     const onClose = () => setIsOpen(false);
     const cancelRef = useRef();
