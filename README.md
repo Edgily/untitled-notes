@@ -20,6 +20,9 @@
 - WebRTC
 - Chakra UI
 - Framer Motion
+- Prettier
+- ESLint
+- Husky
 
 ## Local Installation
 
