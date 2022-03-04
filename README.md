@@ -48,4 +48,4 @@ NEXT_PUBLIC_FIREBASE_APP_ID=
 NEXT_PUBLIC_ABLY_API_KEY=
 ```
 ### Start A Local Server
-Once all the above steps are complete you can run the ```npm run dev``` command to host a local preview of the site accessible on ```http://localhost:3000``` in your browser by default. Check your terminal for the correct URL. Done!
+Once all the above steps are complete you can run the ```npm run dev``` command to host a local preview of the site accessible on ```http://localhost:3000``` in your browser by default. Check your terminal for the correct URL. Done! Now enjoy using our app!
